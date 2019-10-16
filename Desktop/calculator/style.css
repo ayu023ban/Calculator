@@ -1,0 +1,212 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: rgb(200,200,200);
+}
+#container{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px 50px 50px 50px 50px 50px;
+    grid-gap: 10px;
+    width: 400px;
+    left: 30%;
+    top:100px;
+    padding: 20px;
+    
+}
+#but1:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#but2:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but3:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but4:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but5:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but6:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but7:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but8:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but9:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#but0:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#butx:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}#butm:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butdi:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butCE:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butback:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butp:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#bute:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butd:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#butx{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    
+}
+#butdi{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    
+}
+#text{
+    background-color:rgb(230, 230,230);
+    grid-area: 1 / 1 / 2 / 5;
+    color: black;
+    font-size: 30px;
+    box-shadow: 0 0 10px wheat;
+}
+#butp{
+    background-color: black;
+    color:white;
+    grid-area: 5 / 4 / 7 / 5;
+  padding: 45px 0px;
+  font-size: 30px;
+  margin: 0;
+}
+#but1{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+    
+}
+#but2{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+     
+}
+#but3{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+  
+}
+#but4{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+   
+}
+#but5{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+   
+}
+#but6{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+ 
+}
+#but7{
+    background-color: gray;
+    text-align: center;
+    padding:15px 0px;
+
+}
+#but8{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+     
+}
+#but9{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+  
+}
+#but0{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 5/2/6/4;
+  
+}
+#butm{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 4/4/5/5;
+}
+#butd{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 5/1/6/2;
+}
+#bute{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 6/3/7/4;
+    
+}
+#butCE{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 6/2/7/3;
+}
+#title{
+    font-size: 100px;
+    font-weight: 900;
+    font-family:'Amatic SC';
+    text-align: center;
+}
+#butback{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px 0px;
+    grid-area: 6/1/7/2;
+}
